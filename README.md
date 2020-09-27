@@ -3,7 +3,7 @@
 ### 개요
 * 학교 생활을 하는데 도움이 되는 다양한 기능을 가진 안드로이드 애플리케이션
   * 오구라는 귀여운 캐릭터를 학생들의 모습에 빗대어 UI 설계
-  *학식 추천, 맛집 추천, 메모장, 계산기 등의 기능 포함
+  * 학식 추천, 맛집 추천, 메모장, 계산기 등의 기능 포함
 
 ### 주요 기능 
 <img src="https://user-images.githubusercontent.com/46698840/94365224-02033f00-010a-11eb-9ac8-e2b481be14d6.png" width="33%" height="450"><img src="https://user-images.githubusercontent.com/46698840/94365223-fb74c780-0109-11eb-89fb-78fe7cee7b65.png" width="33%" height="450"><img src="https://user-images.githubusercontent.com/46698840/94365403-b94c8580-010b-11eb-89fa-26ad6c53fcb2.png" width="33%" height="450">
