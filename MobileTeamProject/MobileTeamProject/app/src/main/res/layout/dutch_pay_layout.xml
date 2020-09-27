@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_marginTop="70sp"
+            android:id="@+id/dutch_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="밥값은 내야지!"
+            android:textColor="#964B00"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:id="@+id/dutch_text1"
+            android:layout_marginLeft="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="오늘의 당첨은 누구?"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            />
+        <ImageView
+            android:src="@drawable/ohgu_pay_one_button"
+            android:id="@+id/pay_alone"
+            android:layout_width="wrap_content"
+            android:layout_height="100sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+       android:layout_weight="1"
+        android:layout_marginBottom="120sp"
+        >
+
+        <TextView
+            android:layout_marginBottom="30sp"
+            android:id="@+id/dutch_text2"
+            android:layout_marginLeft="60sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="다같이 냅시다"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            />
+        <ImageView
+            android:layout_marginBottom="30sp"
+            android:layout_marginLeft="35sp"
+            android:src="@drawable/ohgu_pay_all_button"
+            android:id="@+id/pay_all"
+            android:layout_width="wrap_content"
+            android:layout_height="100sp" />
+    </LinearLayout>
+
+</LinearLayout>

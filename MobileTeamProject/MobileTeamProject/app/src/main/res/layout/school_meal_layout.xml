@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:gravity="center"
+    >
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+
+            android:id="@+id/text_today_meal"
+            android:layout_marginTop="150sp"
+            android:textSize="40sp"
+            android:textColor="#996600"
+            android:text="오늘의 학식"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginBottom="150sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/text_meal_price"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:text="가격: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/spinner_price_min"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/price_array"
+                ></Spinner>
+            <TextView
+                android:textSize="30sp"
+                android:text="~"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:id="@+id/spinner_price_max"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/price_array"
+                ></Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/text_meal_kind"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:text="종류: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:layout_marginLeft="10sp"
+                android:id="@+id/spinner_food_kind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/kinds_array"
+                ></Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10sp"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/text_meal_restaurant"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:text="식당: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:layout_marginLeft="10sp"
+                android:id="@+id/spinner_food_restaurant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/restaurant_array"
+                ></Spinner>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10sp"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/text_meal_category"
+                android:textColor="#000000"
+                android:textSize="30sp"
+                android:text="카테고리: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Spinner
+                android:layout_marginLeft="10sp"
+                android:id="@+id/spinner_food_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/category_array"
+                ></Spinner>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/button_schoolMeal_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="#964B00"
+            android:padding="15dp"
+            android:text="선택"
+           android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

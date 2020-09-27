@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#654321"
+        android:text="이름을 입력하세요!"/>
+    <TextView
+        android:text="@string/pay_alone_prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:prompt="@string/pay_alone_prompt"
+        android:id="@+id/pay_alone_number_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+        <LinearLayout
+            android:id="@+id/pay_alone_input_linear_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fillViewport="true"
+            android:orientation="vertical"
+            android:padding="2dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:id="@+id/pay_alone_input_layout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+                    <TextView
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text=" 1번"/>
+                    <EditText
+                        android:textCursorDrawable="@null"
+                        android:id="@+id/pay_alone_input_name_edit1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#ffffff"
+                        android:inputType="text"
+                        android:hint="                                 "/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/pay_alone_input_layout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+                    <TextView
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text=" 2번"/>
+                    <EditText
+                        android:textCursorDrawable="@null"
+                        android:id="@+id/pay_alone_input_name_edit2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#ffffff"
+                        android:inputType="text"
+                        android:hint="                                 "/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:id="@+id/pay_alone_input_layout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+                    <TextView
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text=" 3번"/>
+                    <EditText
+                        android:textCursorDrawable="@null"
+                        android:id="@+id/pay_alone_input_name_edit3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#ffffff"
+                        android:inputType="text"
+                        android:hint="                                 "/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/pay_alone_input_layout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1"
+                    android:visibility="gone">
+                    <TextView
+                        android:textColor="#ffffff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text=" 4번"/>
+                    <EditText
+                        android:textCursorDrawable="@null"
+                        android:id="@+id/pay_alone_input_name_edit4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#ffffff"
+                        android:inputType="text"
+                        android:hint="                                 "/>
+                </LinearLayout>
+
+            </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          >
+
+          <LinearLayout
+              android:id="@+id/pay_alone_input_layout5"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_weight="1"
+              android:visibility="gone">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="20sp"
+                  android:text=" 5번"/>
+              <EditText
+                  android:textCursorDrawable="@null"
+                  android:id="@+id/pay_alone_input_name_edit5"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="20sp"
+                  android:textColor="#ffffff"
+                  android:inputType="text"
+                  android:hint="                                 "/>
+          </LinearLayout>
+          <LinearLayout
+              android:id="@+id/pay_alone_input_layout6"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_weight="1"
+              android:visibility="gone">
+              <TextView
+                  android:textColor="#ffffff"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="20sp"
+                  android:text=" 6번"/>
+              <EditText
+                  android:textCursorDrawable="@null"
+                  android:id="@+id/pay_alone_input_name_edit6"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="20sp"
+                  android:textColor="#ffffff"
+                  android:inputType="text"
+                  android:hint="                                 "/>
+          </LinearLayout>
+      </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           >
+           <LinearLayout
+               android:id="@+id/pay_alone_input_layout7"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:orientation="horizontal"
+               android:visibility="gone">
+               <TextView
+                   android:textColor="#ffffff"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:text=" 7번"/>
+               <EditText
+                   android:textCursorDrawable="@null"
+                   android:id="@+id/pay_alone_input_name_edit7"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:textColor="#ffffff"
+                   android:inputType="text"
+                   android:hint="                                 "/>
+           </LinearLayout>
+           <LinearLayout
+               android:id="@+id/pay_alone_input_layout8"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_weight="1"
+               android:visibility="gone">
+               <TextView
+                   android:textColor="#ffffff"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:text=" 8번"/>
+               <EditText
+                   android:textCursorDrawable="@null"
+                   android:id="@+id/pay_alone_input_name_edit8"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:textColor="#ffffff"
+                   android:inputType="text"
+                   android:hint="                                 "/>
+           </LinearLayout>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           >
+           <LinearLayout
+               android:id="@+id/pay_alone_input_layout9"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_weight="1"
+               android:visibility="gone">
+               <TextView
+                   android:textColor="#ffffff"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:text=" 9번"/>
+               <EditText
+                   android:textCursorDrawable="@null"
+                   android:id="@+id/pay_alone_input_name_edit9"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:textColor="#ffffff"
+                   android:inputType="text"
+                   android:hint="                                 "/>
+           </LinearLayout>
+           <LinearLayout
+               android:id="@+id/pay_alone_input_layout10"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:layout_weight="1"
+               android:visibility="gone">
+               <TextView
+                   android:textColor="#ffffff"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:text=" 10번"/>
+               <EditText
+                   android:textCursorDrawable="@null"
+                   android:id="@+id/pay_alone_input_name_edit10"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20sp"
+                   android:textColor="#ffffff"
+                   android:inputType="text"
+                   android:hint="                                 "/>
+           </LinearLayout>
+
+       </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pay_alone_input_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:background="#C6AB72"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="뒤로"/>
+
+        <Button
+            android:id="@+id/pay_alone_input_next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:background="#964B00"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="시작"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DrawFragment"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/red"
+                android:layout_width="36dp"
+                android:layout_height="29dp"
+                android:layout_margin="10dp"
+                android:background="#ff0000" />
+            <Button
+                android:id="@+id/blue"
+                android:layout_width="36dp"
+                android:layout_height="29dp"
+                android:layout_margin="10dp"
+                android:background="#0000ff" />
+            <Button
+                android:id="@+id/yellow"
+                android:layout_width="36dp"
+                android:layout_height="29dp"
+                android:layout_margin="10dp"
+                android:background="#ffff00" />
+            <Button
+                android:id="@+id/black"
+                android:layout_width="36dp"
+                android:layout_height="29dp"
+                android:layout_margin="10dp"
+                android:background="#000000"/>
+            <Button
+                android:id="@+id/white"
+                android:layout_width="36dp"
+                android:layout_height="29dp"
+                android:layout_margin="10dp"
+                android:background="#ffff"/>
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="87dp"
+                android:layout_height="36dp"
+                android:layout_margin="10dp"
+                android:text="리셋"
+                android:background="#964B00"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

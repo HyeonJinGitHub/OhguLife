@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">MobileTeamProject</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <color name="bg">#fEE589</color>
+    <string name="iptStrSize">200</string>
+    <string name="pay_alone_prompt">인원 수를 선택하세요</string>
+    <string-array name="pay_alone_array">
+        <item>2명</item>
+        <item>3명</item>
+        <item>4명</item>
+        <item>5명</item>
+        <item>6명</item>
+        <item>7명</item>
+        <item>8명</item>
+        <item>9명</item>
+        <item>10명</item>
+    </string-array>
+
+    <string name="select_prompt">선택</string>
+    <string-array name="select_array">
+        <item>길이</item>
+        <item>무게</item>
+        <item>온도</item>
+    </string-array>
+
+    <string name="unit_prompt">단위를 선택하시오</string>
+    <string-array name="unit_array1">
+        <item>km</item>
+        <item>m</item>
+        <item>cm</item>
+        <item>mm</item>
+    </string-array>
+
+    <string name="unit_prompt2">단위를 선택하시오</string>
+    <string-array name="unit_array2">
+        <item>km</item>
+        <item>m</item>
+        <item>cm</item>
+        <item>mm</item>
+    </string-array>
+
+    <string name="weigth_prompt1">단위를 선택하시오</string>
+    <string-array name="weigth_array1">
+        <item>kg</item>
+        <item>g</item>
+        <item>mg</item>
+    </string-array>
+
+    <string name="weigth_prompt2">단위를 선택하시오</string>
+    <string-array name="weigth_array2">
+        <item>kg</item>
+        <item>g</item>
+        <item>mg</item>
+    </string-array>
+
+    <string name="temp_prompt1">단위를 선택하시오</string>
+    <string-array name="temp_array1">
+        <item>C</item>
+        <item>F</item>
+        <item>K</item>
+    </string-array>
+    <string name="temp_prompt2">단위를 선택하시오</string>
+    <string-array name="temp_array2">
+        <item>C</item>
+        <item>F</item>
+        <item>K</item>
+    </string-array>
+
+</resources>

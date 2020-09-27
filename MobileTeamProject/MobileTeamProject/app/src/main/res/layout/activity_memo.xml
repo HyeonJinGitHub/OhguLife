@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MemoActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/textBtn"
+            android:text="text"
+            android:onClick="selectedFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#964B00"
+            android:layout_margin="10dp"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/drawBtn"
+            android:text="draw"
+            android:onClick="selectedFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#964B00"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></RelativeLayout>
+</LinearLayout>

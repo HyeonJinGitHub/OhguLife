@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/bg"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/pay_all_text1"
+            android:textSize="30sp"
+            android:layout_marginTop="70sp"
+            android:textColor="#000000"
+            android:text="금액과 인원수를 입력해주세요!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/pay_all_text2"
+            android:layout_marginTop="30sp"
+            android:textSize="30sp"
+            android:textColor="#964B00"
+            android:text="금액 : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="30sp"
+            android:id="@+id/edit_pay_all_price"
+            android:ems="6"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70sp"
+        >
+        <TextView
+            android:id="@+id/pay_all_text3"
+            android:layout_marginBottom="50sp"
+            android:textSize="30sp"
+            android:textColor="#964B00"
+            android:text="인원 : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginBottom="50sp"
+            android:id="@+id/edit_pay_all_number"
+            android:ems="6"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pay_all_input_back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:background="#C6AB72"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="뒤로"/>
+
+        <Button
+            android:id="@+id/pay_all_input_next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:background="#964B00"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:text="시작"/>
+    </LinearLayout>
+</LinearLayout>

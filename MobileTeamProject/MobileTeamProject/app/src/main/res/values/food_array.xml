@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="price_array">
+        <item>15000</item>
+        <item>10000</item>
+        <item>5000</item>
+        <item>4500</item>
+        <item>4000</item>
+        <item>3500</item>
+        <item>3000</item>
+        <item>2500</item>
+        <item>2000</item>
+        <item>1500</item>
+    </string-array>
+    <string-array name="category_array">
+        <item>전체</item>
+        <item>한식</item>
+        <item>일식</item>
+        <item>중식</item>
+        <item>양식</item>
+    </string-array>
+    <string-array name="kinds_array">
+        <item>전체</item>
+        <item>밥</item>
+        <item>면</item>
+        <item>요리</item>
+    </string-array>
+    <string-array name="restaurant_array">
+        <item>전체</item>
+        <item>썬푸드</item>
+        <item>우쿠야</item>
+        <item>한스델리</item>
+        <item>몸에존짜장</item>
+        <item>김밥천국</item>
+    </string-array>
+</resources>
