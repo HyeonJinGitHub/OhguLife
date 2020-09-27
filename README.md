@@ -5,6 +5,9 @@
   * 오구라는 귀여운 캐릭터를 학생들의 모습에 빗대어 UI 설계
   *학식 추천, 맛집 추천, 메모장, 계산기 등의 기능 포함
 
+### 주요 기능 
+<img src="https://user-images.githubusercontent.com/46698840/94365224-02033f00-010a-11eb-9ac8-e2b481be14d6.png" width="30%" height="450"><img src="https://user-images.githubusercontent.com/46698840/94365223-fb74c780-0109-11eb-89fb-78fe7cee7b65.png" width="30%" height="450"><img src="https://user-images.githubusercontent.com/46698840/94365220-f6b01380-0109-11eb-8887-ca2a42bbb49e.png" width="30%" height="450">
+
 ### 개발 기간
 * 2019.05~2019.06
 
